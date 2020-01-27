@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>CUSTOM</shapeType>
+    </entry>
+    <entry>
+      <string>customShape</string>
+      <shape>
+        <pins>
+          <entry>
+            <string>asr</string>
+            <pin>
+              <pos x="80" y="120"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>lsl</string>
+            <pin>
+              <pos x="20" y="120"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>dout</string>
+            <pin>
+              <pos x="100" y="40"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>Din</string>
+            <pin>
+              <pos x="0" y="0"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>lsr</string>
+            <pin>
+              <pos x="40" y="120"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>shft amt</string>
+            <pin>
+              <pos x="0" y="60"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+        </pins>
+        <drawables>
+          <poly>
+            <poly path="M 0,-40 L 100,-40 L 100,120 L 0,120 Z" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>true</filled>
+            <color>
+              <red>255</red>
+              <green>85</green>
+              <blue>85</blue>
+              <alpha>200</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 0,-40 L 100,-40 L 100,120 L 0,120 Z" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="6" y="15"/>
+            <p2 x="7" y="15"/>
+            <text>Din</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>23</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="5" y="68"/>
+            <p2 x="6" y="68"/>
+            <text>shft amt</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="31" y="113"/>
+            <p2 x="31" y="111"/>
+            <text>lsl</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="58" y="113"/>
+            <p2 x="58" y="111"/>
+            <text>lsr</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="84" y="115"/>
+            <p2 x="84" y="114"/>
+            <text>asr</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>25</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="96" y="40"/>
+            <p2 x="97" y="40"/>
+            <text>Dout</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+        </drawables>
+        <label>
+          <p1 x="48" y="-13"/>
+          <p2 x="49" y="-13"/>
+          <text></text>
+          <orientation>CENTERBOTTOM</orientation>
+          <size>21</size>
+          <color>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </color>
+        </label>
+      </shape>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>SHIFT			
+		XLEN1 = 5bitUnsignedInt			
+rd[] &lt;= rs1 &lt;&lt; rs2	4	lsl rd, rs1, rs2	lsl rd, rs1, imm(XLEN1)	4	rd[] &lt;= rs1[] &lt;&lt; imm
+rd[] &lt;= rs1 &gt;&gt; rs2	4	lsr rd, rs1, rs2	lsr rd, rs1, imm(XLEN1)	4	rd[] &lt;= rs1[] &gt;&gt; imm
+rd[] &lt;= rs1 &gt;&gt;&gt; rs2	4	asr rd, rs1, rs2	asr rd, rs1, imm(XLEN1)	4	rd[] &lt;= rs1[] &gt;&gt;&gt; imm</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-400" y="-160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>BarrelShifter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-100" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>BarrelShifter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>direction</string>
+          <direction>right</direction>
+        </entry>
+      </elementAttributes>
+      <pos x="-100" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>BarrelShifter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>barrelShifterMode</string>
+          <barrelShifterMode>arithmetic</barrelShifterMode>
+        </entry>
+        <entry>
+          <string>direction</string>
+          <direction>right</direction>
+        </entry>
+      </elementAttributes>
+      <pos x="-100" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Din</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-240" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>shft amt</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-240" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-20" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="40" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="100" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="20" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="80" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>lsl</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-180" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>lsr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-180" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>asr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-180" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>dout</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>16</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>5,11</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-220" y="360"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-240" y="320"/>
+      <p2 x="-140" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="320"/>
+      <p2 x="-100" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="480"/>
+      <p2 x="-100" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="420"/>
+      <p2 x="40" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="580"/>
+      <p2 x="60" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="520"/>
+      <p2 x="-100" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="360"/>
+      <p2 x="-120" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="360"/>
+      <p2 x="140" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="360"/>
+      <p2 x="-220" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="360"/>
+      <p2 x="-100" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="300"/>
+      <p2 x="-20" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="460"/>
+      <p2 x="100" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="560"/>
+      <p2 x="0" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="400"/>
+      <p2 x="-100" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="340"/>
+      <p2 x="-20" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="500"/>
+      <p2 x="100" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="600"/>
+      <p2 x="120" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="440"/>
+      <p2 x="-100" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="380"/>
+      <p2 x="40" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="380"/>
+      <p2 x="140" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="380"/>
+      <p2 x="260" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="340"/>
+      <p2 x="0" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="380"/>
+      <p2 x="80" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="600"/>
+      <p2 x="-180" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="540"/>
+      <p2 x="-180" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="320"/>
+      <p2 x="20" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="360"/>
+      <p2 x="-120" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="440"/>
+      <p2 x="-120" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="500"/>
+      <p2 x="120" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="320"/>
+      <p2 x="-140" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="400"/>
+      <p2 x="-140" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="420"/>
+      <p2 x="60" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="400"/>
+      <p2 x="140" y="480"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

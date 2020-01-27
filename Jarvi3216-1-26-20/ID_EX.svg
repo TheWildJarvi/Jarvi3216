@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-80 -80 220 940"
+   version="1.1">
+  <sodipodi:namedview showgrid="true">
+    <inkscape:grid
+       type="xygrid"
+       empspacing="4"
+       spacingx="5"
+       spacingy="5" />
+  </sodipodi:namedview>
+  <rect stroke="black" stroke-width="4" fill="#ffffb4" fill-opacity="0.78431374" x="0" y="-10" width="60" height="800"/>
+    <text id="label" fill="#000000" font-size="24" text-anchor="middle" x="30" y="-20">Label</text>
+  <g>
+    <circle fill="#0000b2" id="pin:rd" cx="0" cy="0" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="6">rd</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:rs1" cx="0" cy="20" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="26">rs1</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:rs2" cx="0" cy="40" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="46">rs2</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:rs3" cx="0" cy="60" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="66">rs3</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:shft amt" cx="0" cy="80" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="86">shft amt</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:imm" cx="0" cy="100" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="106">imm</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:abs/rel branch/jal(r)" cx="0" cy="120" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="126">abs/rel branch/jal(r)</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:jmp" cx="0" cy="140" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="146">jmp</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:bgt" cx="0" cy="160" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="166">bgt</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:bgte" cx="0" cy="180" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="186">bgte</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:beq" cx="0" cy="200" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="206">beq</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:blte" cx="0" cy="220" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="226">blte</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:blt" cx="0" cy="240" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="246">blt</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:bne" cx="0" cy="260" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="266">bne</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:JALorJALR" cx="0" cy="280" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="286">JALorJALR</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:add" cx="0" cy="300" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="306">add</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:sub" cx="0" cy="320" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="326">sub</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:adc" cx="0" cy="340" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="346">adc</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:cmp" cx="0" cy="360" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="366">cmp</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:nor" cx="0" cy="380" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="386">nor</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:and" cx="0" cy="400" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="406">and</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:xor" cx="0" cy="420" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="426">xor</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:xnor" cx="0" cy="440" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="446">xnor</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:lsl" cx="0" cy="460" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="466">lsl</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:lsr" cx="0" cy="480" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="486">lsr</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:asr" cx="0" cy="500" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="506">asr</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:lbu" cx="0" cy="520" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="526">lbu</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:lbs" cx="0" cy="540" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="546">lbs</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:lw" cx="0" cy="560" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="566">lw</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:sw" cx="0" cy="580" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="586">sw</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:sb" cx="0" cy="600" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="606">sb</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:limm" cx="0" cy="620" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="626">limm</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:mul" cx="0" cy="640" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="646">mul</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:muls" cx="0" cy="660" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="666">muls</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:div" cx="0" cy="680" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="686">div</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:divs" cx="0" cy="700" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="706">divs</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:branch" cx="0" cy="720" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="726">branch</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:jal(r)" cx="0" cy="740" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="746">jal(r)</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:clear" cx="0" cy="760" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="766">clear</text>
+  </g>
+  <g>
+    <circle fill="#0000b2" id="pin:clk" cx="0" cy="780" r="3"/>
+    <text fill="#808080" font-size="18" x="4" y="786">clk</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:rd" cx="60" cy="0" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="6">rd</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:rs1" cx="60" cy="20" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="26">rs1</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:rs2" cx="60" cy="40" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="46">rs2</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:rs3" cx="60" cy="60" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="66">rs3</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:shft amt" cx="60" cy="80" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="86">shft amt</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:imm" cx="60" cy="100" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="106">imm</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:abs/rel branch/jal(r)" cx="60" cy="120" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="126">abs/rel branch/jal(r)</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:jmp" cx="60" cy="140" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="146">jmp</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:bgt" cx="60" cy="160" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="166">bgt</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:bgte" cx="60" cy="180" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="186">bgte</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:beq" cx="60" cy="200" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="206">beq</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:blte" cx="60" cy="220" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="226">blte</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:blt" cx="60" cy="240" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="246">blt</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:bne" cx="60" cy="260" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="266">bne</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:JALorJJALR" cx="60" cy="280" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="286">JALorJJALR</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:add" cx="60" cy="300" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="306">add</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:sub" cx="60" cy="320" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="326">sub</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:adc" cx="60" cy="340" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="346">adc</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:cmp" cx="60" cy="360" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="366">cmp</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:nor" cx="60" cy="380" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="386">nor</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:and" cx="60" cy="400" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="406">and</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:xor" cx="60" cy="420" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="426">xor</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:xnor" cx="60" cy="440" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="446">xnor</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:lsl" cx="60" cy="460" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="466">lsl</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:lsr" cx="60" cy="480" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="486">lsr</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:asr" cx="60" cy="500" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="506">asr</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:lbu" cx="60" cy="520" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="526">lbu</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:lbs" cx="60" cy="540" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="546">lbs</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:lw" cx="60" cy="560" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="566">lw</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:sw" cx="60" cy="580" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="586">sw</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:sb" cx="60" cy="600" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="606">sb</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:limm" cx="60" cy="620" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="626">limm</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:mul" cx="60" cy="640" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="646">mul</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:muls" cx="60" cy="660" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="666">muls</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:div" cx="60" cy="680" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="686">div</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:divs" cx="60" cy="700" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="706">divs</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:branch" cx="60" cy="720" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="726">branch</text>
+  </g>
+  <g>
+    <circle fill="#b20000" id="pin:jal(r)" cx="60" cy="740" r="3"/>
+    <text fill="#808080" font-size="18" text-anchor="end" x="56" y="746">jal(r)</text>
+  </g>
+</svg>

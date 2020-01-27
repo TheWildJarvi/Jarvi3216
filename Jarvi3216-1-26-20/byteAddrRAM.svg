@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-80 -80 220 280"
+   version="1.1"
+   id="svg54"
+   sodipodi:docname="byteAddrRAM.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata58">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs56" />
+  <sodipodi:namedview
+     showgrid="true"
+     id="namedview4"
+     inkscape:zoom="1.6857143"
+     inkscape:cx="73.891199"
+     inkscape:cy="120.30207"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg54">
+    <inkscape:grid
+       type="xygrid"
+       empspacing="4"
+       spacingx="5"
+       spacingy="5"
+       id="grid2" />
+  </sodipodi:namedview>
+  <rect
+     x="-74.161057"
+     y="-80"
+     width="149.16106"
+     height="282.13098"
+     id="rect6"
+     style="fill:#ff00ff;fill-opacity:0.78431373;stroke:#000000;stroke-width:8.95310116" />
+  <text
+     id="label"
+     font-size="24"
+     x="5.3906803"
+     y="-41.654694"
+     style="font-size:32.40503311px;text-anchor:middle;fill:#000000;stroke-width:1.35020971"
+     transform="scale(0.89420562,1.118311)">RAM</text>
+  <g
+     id="g12"
+     transform="translate(-74.246212,41.132768)">
+    <circle
+       id="pin:dataIN"
+       cx="0"
+       cy="0"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="6"
+       id="text10"
+       style="font-size:18px;fill:#808080">dataIN</text>
+  </g>
+  <g
+     id="g17"
+     transform="translate(-76.763033,-45.722244)">
+    <circle
+       id="pin:write w"
+       cx="0"
+       cy="20"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="26"
+       id="text15"
+       style="font-size:18px;fill:#808080">write w</text>
+  </g>
+  <g
+     id="g22"
+     transform="translate(-77.110534,-39.507276)">
+    <circle
+       id="pin:write b"
+       cx="0"
+       cy="40"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="46"
+       id="text20"
+       style="font-size:18px;fill:#808080">write b</text>
+  </g>
+  <g
+     id="g27"
+     transform="translate(-74.152542,13.050847)">
+    <circle
+       id="pin:addr"
+       cx="0"
+       cy="60"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="66"
+       id="text25"
+       style="font-size:18px;fill:#808080">addr</text>
+  </g>
+  <g
+     id="g32"
+     transform="matrix(0,-1.6419361,1.533644,0,-121.29089,202.27626)"
+     inkscape:transform-center-x="-0.64331686"
+     inkscape:transform-center-y="37.880876">
+    <circle
+       id="pin:clk"
+       cx="0"
+       cy="80"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="86"
+       id="text30"
+       style="font-size:18px;fill:#808080">clk</text>
+  </g>
+  <g
+     id="g37"
+     transform="translate(-73.826742,37.332841)">
+    <circle
+       id="pin:read b"
+       cx="0"
+       cy="100"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="106"
+       id="text35"
+       style="font-size:18px;fill:#808080">read b</text>
+  </g>
+  <g
+     id="g42"
+     transform="translate(-74.737652,-6.8801575)">
+    <circle
+       id="pin:read w"
+       cx="0"
+       cy="120"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="126"
+       id="text40"
+       style="font-size:18px;fill:#808080">read w</text>
+  </g>
+  <g
+     id="g47"
+     transform="matrix(0.77917214,0,0,1.4774806,32.301984,-3.4536074)">
+    <circle
+       id="pin:Word Not Aligned"
+       cx="60"
+       cy="0"
+       r="3"
+       style="fill:#b20000" />
+    <text
+       font-size="18"
+       x="54.364113"
+       y="5.7831159"
+       id="text45"
+       style="font-size:17.47418022px;text-anchor:end;fill:#808080;stroke-width:0.97078776"
+       transform="scale(1.0300913,0.97078775)">Word Not</text>
+    <text
+       font-size="18"
+       x="43.818447"
+       y="20.855797"
+       style="font-size:18px;text-anchor:end;fill:#808080"
+       id="text62">Aligned</text>
+  </g>
+  <g
+     id="g52"
+     transform="translate(13.737737,65.981168)">
+    <circle
+       id="pin:dataOUT"
+       cx="60"
+       cy="20"
+       r="3"
+       style="fill:#b20000" />
+    <text
+       font-size="18"
+       x="56"
+       y="26"
+       id="text50"
+       style="font-size:18px;text-anchor:end;fill:#808080">dataOUT</text>
+  </g>
+</svg>

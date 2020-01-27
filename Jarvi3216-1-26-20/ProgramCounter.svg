@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-80 -80 220 220"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="ProgramCounter.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata38">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs36">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect60"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect56"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <sodipodi:namedview
+     showgrid="true"
+     id="namedview4"
+     inkscape:zoom="2.1454545"
+     inkscape:cx="119.50992"
+     inkscape:cy="76.221264"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34">
+    <inkscape:grid
+       type="xygrid"
+       empspacing="4"
+       spacingx="5"
+       spacingy="5"
+       id="grid2" />
+  </sodipodi:namedview>
+  <rect
+     x="-34.999996"
+     y="-75"
+     width="140"
+     height="215"
+     id="rect6"
+     style="fill:#aa87de;fill-opacity:0.78431373;stroke:#000000;stroke-width:10.01665306" />
+  <text
+     id="label"
+     font-size="24"
+     x="30.000006"
+     y="-47.838985"
+     style="font-size:24px;text-anchor:middle;fill:#000000">PC</text>
+  <g
+     id="g12"
+     transform="translate(-34.957625,120.38136)">
+    <circle
+       id="pin:abs/rel"
+       cx="0"
+       cy="0"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="6"
+       id="text10"
+       style="font-size:18px;fill:#808080">abs/rel</text>
+  </g>
+  <g
+     id="g17"
+     transform="translate(-36.355925,30.423727)">
+    <circle
+       id="pin:branch input"
+       cx="0"
+       cy="20"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="26"
+       id="text15"
+       style="font-size:18px;fill:#808080">branch input</text>
+  </g>
+  <g
+     id="g22"
+     transform="translate(-35.423725,36.483049)">
+    <circle
+       id="pin:branchEnable"
+       cx="0"
+       cy="40"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="4"
+       y="46"
+       id="text20"
+       style="font-size:18px;fill:#808080">branchEnable</text>
+  </g>
+  <g
+     id="g27"
+     transform="translate(215.80509,34.15254)">
+    <circle
+       id="pin:clk"
+       cx="-251.69492"
+       cy="65.593224"
+       r="3"
+       style="fill:#0000b2" />
+    <text
+       font-size="18"
+       x="-235.57628"
+       y="72.059319"
+       id="text25"
+       style="font-size:18px;fill:#808080">clk</text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -245.80509,75.84746 c 2.88236,-2.88236 6.66767,-6.66767 10,-10"
+       id="path54"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect56"
+       inkscape:original-d="m -245.80509,75.84746 c 2.88236,-2.88236 6.66767,-6.66767 10,-10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -245.80509,60.84746 c 3.33374,1.66687 6.66707,3.333534 10,5"
+       id="path58"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect60"
+       inkscape:original-d="m -245.80509,60.84746 c 3.33434,1.66567 6.66767,3.33233 10,5" />
+  </g>
+  <g
+     id="g32"
+     transform="translate(220.00001,-5.000002)">
+    <circle
+       id="pin:PROMaddr"
+       cx="-112.92373"
+       cy="7.9237289"
+       r="3"
+       style="fill:#b20000" />
+    <text
+       font-size="18"
+       x="-126.24577"
+       y="0.87288022"
+       id="text30"
+       style="font-size:18px;text-anchor:end;fill:#808080">PROM</text>
+    <text
+       font-size="18"
+       x="-135.1017"
+       y="22.31356"
+       style="font-size:18px;text-anchor:end;fill:#808080"
+       id="text40">addr</text>
+  </g>
+</svg>
