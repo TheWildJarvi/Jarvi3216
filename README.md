@@ -3,3 +3,4 @@
 ISA defined here(sheet 3): https://docs.google.com/spreadsheets/d/1kmscW34t-TikHqepXqmdhzebWX43yrv9haebRDPdL6E/edit?usp=sharing
 not finished 01/13/20
 -jarvi
+![CPUsorfar](https://user-images.githubusercontent.com/44104303/73144489-2fc44f80-4074-11ea-907f-37e3ea80568c.JPG)
