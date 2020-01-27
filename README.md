@@ -3,4 +3,6 @@
 ISA defined here(sheet 3): https://docs.google.com/spreadsheets/d/1kmscW34t-TikHqepXqmdhzebWX43yrv9haebRDPdL6E/edit?usp=sharing
 not finished 01/13/20
 -jarvi
-https://imgur.com/ysN8cKN
+![alt text](https://imgur.com/ysN8cKN)
+
+
